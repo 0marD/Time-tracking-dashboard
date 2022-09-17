@@ -20,7 +20,7 @@ let monthlyBtn = document.querySelector("#monthly");
 
 let secondSection = document.querySelector(".section--secondary");
 
-drawElements(weekArray);
+drawElements(weeklyArray);
 
 dailyBtn.addEventListener("click", () => {
   drawElements(dailyArray);
